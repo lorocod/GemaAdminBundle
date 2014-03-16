@@ -1,0 +1,20 @@
+admin:
+    resource: "@GemaAdminBundle/Controller/Admin"
+    type:     annotation
+    prefix:   /admin
+    
+admin_login_check:
+    pattern: /admin/login_check
+
+admin_login:
+    pattern: /admin/login
+
+admin_logout:
+    pattern: /admin/logout
+
+gema_ejemplo:
+    resource: "@GemaAdminBundle/Controller/Ejemplo"
+    type:     annotation
+    prefix:   /ejemplo
+#    defaults:  { _controller: "GemaAdminBundle:Ejemplo\Home:index" }
+ 

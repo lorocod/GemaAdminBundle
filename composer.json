@@ -1,0 +1,57 @@
+{
+    "name":        "lorocod/gema-admin-bundle",
+    "type":        "symfony-bundle",
+    "description": "Template y Admin para aplicacion rapida en proyectos de Symfony2.",
+    "keywords":    [
+        "authentication",
+        "firewall",
+        "template",
+        "admin"
+    ],
+    "homepage":    "http://github.com/lorocod/GemaAdminBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "lorocod",
+            "email": "lorocod@gmail.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/lorocod/GemaAdminBundle/contributors"
+        }
+    ],
+
+    "require": {
+        "php":                          ">=5.3.3",
+        "symfony/framework-bundle":     "~2.1",
+        "symfony/security-bundle":      "~2.1",
+        "symfony/options-resolver":     "~2.1",
+        "kriswallsmith/buzz":           "~0.7"
+    },
+
+    "require-dev": {
+        "doctrine/orm":                 "~2.2",
+        "symfony/validator":            "~2.1",
+        "symfony/twig-bundle":          "~2.1"
+    },
+
+    "suggest": {
+        "doctrine/doctrine-bundle":     "to use Doctrine user provider",
+        "symfony/twig-bundle":          "to use the Twig"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Gema\\AdminBundle": ""
+        }
+    },
+
+    "target-dir": "Gema/AdminBundle",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.3-dev"
+        }
+    }
+}
